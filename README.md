@@ -1,10 +1,5 @@
 # Learning Laravel Series
-This is a series designed to show off various features of Laravel in fun, 
-easily consumable projects. I’ll be keeping track of the entire series 
-in my public GitHub repo and including the instructions for keeping your 
-own project up to date with mine. For fun, I decided to create these 
-projects around the theme of Carmen Sandiego, an international thief who 
-has appeared in video games and television shows since 1985.
+Follow along by visiting the project's GitHub pages [blog](https://krievley.github.io/learning-laravel/).
 
 ## Requirements
 - Laravel 9
