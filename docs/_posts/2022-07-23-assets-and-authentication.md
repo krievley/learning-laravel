@@ -104,7 +104,7 @@ use “Oswald” for headings and “Lato” for body text, so we will replace t
 We will then update the `<body>` tag with a Blade parameter that will accept content supplied to the template utilizing 
 [template inheritance](https://laravel.com/docs/9.x/blade#layouts-using-template-inheritance).
 
-```
+```blade
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -268,7 +268,3 @@ Take this opportunity to create and modify the current views and components to r
 If you would like to take a look at my version, check out [assets-and-authentication__end](https://github.com/krievley/learning-laravel/tree/assets-and-authentication__end).
 
 Stay tuned for Carmen’s next assignment.
-
-echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
-echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
-echo "chruby ruby-3.1.2" >> ~/.bash_profile # run 'chruby' to see actual version
