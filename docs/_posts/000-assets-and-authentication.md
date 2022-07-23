@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Learning Laravel: Assets and Authentication"
+date: 2022-07-23
+---
+
 # Learning Laravel Series
 This is a series designed to show off various features of the Laravel framework in fun, easily consumable projects. 
 I’ll be keeping track of the entire series in my public [GitHub repo](https://github.com/krievley/learning-laravel) and 
@@ -262,3 +268,7 @@ Take this opportunity to create and modify the current views and components to r
 If you would like to take a look at my version, check out [assets-and-authentication__end](https://github.com/krievley/learning-laravel/tree/assets-and-authentication__end).
 
 Stay tuned for Carmen’s next assignment.
+
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
+echo "chruby ruby-3.1.2" >> ~/.bash_profile # run 'chruby' to see actual version
